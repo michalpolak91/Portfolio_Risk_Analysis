@@ -66,7 +66,7 @@ date,AAPL.US,MSFT.US,SPY.US
 2022-01-03,0.0042,-0.0021,0.0008
 
 ## Market data (Stooq)
--The app downloads daily close prices per symbol and computes simple daily returns.
--Symbols for US stocks typically use .US (e.g., AAPL.US).
--For robust selection, the app ships data/symbol_map.csv (S&P 500 / Nasdaq-100 map).
--You can regenerate data/symbol_map.csv using scripts/build_symbol_map.R and commit the result.
+- The app downloads daily close prices per symbol and computes simple daily returns.
+- Symbols for US stocks typically use .US (e.g., AAPL.US).
+- For robust selection, the app ships data/symbol_map.csv (S&P 500 / Nasdaq-100 map).
+- You can regenerate data/symbol_map.csv using scripts/build_symbol_map.R and commit the result.
