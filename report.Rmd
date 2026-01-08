@@ -1,0 +1,18 @@
+---
+title: "Portfolio Risk Sandbox Report"
+output: html_document
+params:
+  data: !r NULL
+  weights_summary: !r NULL
+  risk: !r NULL
+  backtest: !r NULL
+  stress: !r NULL
+  method: !r NULL
+  alpha: !r NULL
+  n_sims: !r NULL
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(dplyr)
+library(ggplot2)

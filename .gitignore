@@ -1,0 +1,18 @@
+# R / Shiny
+.Rhistory
+.RData
+.Rproj.user/
+
+# Shiny runtime artifacts
+rsconnect/
+*.html
+
+# Reports (generated)
+portfolio_risk_report*.html
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache / temp
+data/cache/
